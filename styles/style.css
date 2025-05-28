@@ -328,15 +328,13 @@
   display: flex;
   justify-content: center;
   column-gap: 40px;
-  border: 1px solid black;
   /* Adicione estilos */
 }
 
 .step {
   margin: 40px;
   max-width: 220px;
-  flex-basis: auto;
-  border: 1px solid red;
+  flex-basis: inherit;
   /* Adicione estilos */
 }
 
@@ -359,7 +357,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   font-size: 10px;
   padding: 60px 80px 60px 80px;

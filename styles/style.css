@@ -334,7 +334,7 @@
 .step {
   margin: 40px;
   max-width: 220px;
-  flex-basis: inherit;
+  flex-basis: content;
   /* Adicione estilos */
 }
 
